@@ -69,3 +69,10 @@ li a:hover {
 .active {
     background-color: #4CAF50;
 }
+
+#content {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  background-color: lightgrey;
+}
