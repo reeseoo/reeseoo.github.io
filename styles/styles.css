@@ -39,7 +39,7 @@ img.bg {
 
 ul {
   position: fixed;
-    top: 0;
+    top: 220;
     width: 100%;
     list-style-type: none;
     margin: 0;
@@ -75,4 +75,16 @@ li a:hover {
   height: 800px;
   margin: auto;
   background-color: lightgrey;
+}
+
+#banner {
+  position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right:auto;
+    overflow: hidden;
+    background-color: #333;
 }
