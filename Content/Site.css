@@ -37,9 +37,13 @@ img.bg {
     top: 10px;
 }
 
+.navigation-bar{
+    background-color: #ffffff;
+}
+
 ul {
   position: fixed;
-    top: 220;
+    top: 0;
     width: 100%;
     list-style-type: none;
     margin: 0;
@@ -77,7 +81,44 @@ li a:hover {
   background-color: lightgrey;
 }
 
-.banner {
-  position: fixed;
-  top: 0;
+.hero{
+    max-height: 600px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.hero-banner{
+    background-color: rgba(255,255,255,0.7);
+    bottom: 50px;
+    position:absolute;
+    width: 100%
+}
+
+.main-container{
+    font-family: 'Trirong', serif;
+    margin: auto;
+    max-width: 1187px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.default-paragraph{
+    font-size: 1.2em;
+}
+
+.footer{
+    background-color: #BBD0D3;
+    height: 120px;
+    width: 100%;    
+    border-top: 1px solid black;
+}
+
+.footer-content{
+    font-family: 'Trirong', serif;
+    margin: auto;
+    max-width: 1187px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:15px;
 }
