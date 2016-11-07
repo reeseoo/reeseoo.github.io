@@ -45,6 +45,11 @@ img.hero {
     padding-top: 100px;
 }
 
+.nav-icon{
+    width: 70px;
+    height: 70px;
+}
+
 #nav-links {
     display: inline-block;
     float: right;
