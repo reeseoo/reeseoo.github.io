@@ -5,20 +5,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bullwick Bulldogs</title>
-    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
-    <link href="/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="Site.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
 </head>
 
-<body style="background-color: #E4ECEE;">
-    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #86D0FF; font-family: 'Trirong', serif;">
+<body>
+    <div id="navbar">
         <div class="container">
-            <div class="navbar-header" style="width: 100%;">
 
-                <img src="/Images/bulldog.png" style="display: inline-block; float: left; height: 70px; padding: 5px;" />
-                <a href="/">
-                    <h1 style="font-family: 'Trirong', serif; display: inline-block; float: left;">Bullwick Bulldogs</h1>
-                </a>
+                <img id="logo" src="bulldog.png"/>
+                <a id="logo-name" href="index.html">Bullwick Bulldogs</a>
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
@@ -26,35 +22,16 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <div style="display: inline-block; float: right; margin-top: 15px;">
-                    <a href="/about.html">About</a>
-                    <a href="/about.html">Dogs</a>
-                    <a href="/about.html">Pups</a>
-                    <a href="/about.html">News</a>
-                </div>
+                <div id="nav-links">
+                    <a id="navs" href="/about.html">About</a>
+                    <a id="navs" href="/dogs.html">Dogs</a>
+                    <a id="navs" href="/pups.html">Pups</a>
+                    <a id="navs" href="/news.html">News</a>
             </div>
         </div>
     </div>
-    <style type="text/css">
-        img {
-            max-width: 100%;
-            height: auto;
-            width: auto\9;
-            padding-top: 70px;
-        }
-        
-        @media only screen and (max-width: 990px) {
-            img {
-                max-width: 100%;
-                height: auto;
-                width: auto\9;
-                padding-top: 135px;
-            }
-        }
-    </style>
-    <div class="hero">
-        <img src="/Images/hero.jpg" />
-    </div>
+
+        <img class="hero" src="hero.jpg" />
 
     <div class="main-container">
         <h2 style="font-family: 'Trirong', serif;">Welcome</h2>
