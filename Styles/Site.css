@@ -88,18 +88,18 @@ img.hero {
 }
 
 .default-paragraph{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .footer{
-    background-color: #86D0FF;
+    background-color: #76bea6;
     height: 120px;
-    width: 100%;    
-    border-top: 1px solid black;
+    width: 100%;
 }
 
 .footer-content{
     font-family: 'Trirong', serif;
+    font-size: 0.8em;
     margin: auto;
     max-width: 1187px;
     padding-left: 15px;
