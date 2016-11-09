@@ -11,7 +11,7 @@ body {
     border: none;
     font-family: 'Trirong', serif;
     width: 100%;
-    height: 100px;
+    height: 80px;
     position: fixed;
 }
 
@@ -19,8 +19,8 @@ body {
     display: inline-block;
     float: left;
     height: 70px;
-    padding: 5px;
-    margin-top: 10px
+    padding-right: 5px;
+    margin-top: 5px
 }
 
 #logo-name {
@@ -29,7 +29,7 @@ body {
     float: left;
     text-decoration: none;
     font-size: 2em;
-    margin-top: 20px;
+    margin-top: 12px;
     color: #4e3829;
 }
 
@@ -42,13 +42,18 @@ img.hero {
     max-width: 100%;
     height: auto;
     width: auto\9;
-    padding-top: 100px;
+    padding-top: 80px;
+}
+
+.nav-icon{
+    width: 70px;
+    height: 70px;
 }
 
 #nav-links {
     display: inline-block;
     float: right;
-    margin-top: 35px;
+    margin-top: 27px;
 }
 
 #navs {
@@ -88,21 +93,33 @@ img.hero {
 }
 
 .default-paragraph{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .footer{
-    background-color: #86D0FF;
-    height: 120px;
-    width: 100%;    
-    border-top: 1px solid black;
+    background-color: #76bea6;
+    height: 80px;
+    width: 100%;
 }
 
 .footer-content{
+    color: #4e3829;
     font-family: 'Trirong', serif;
+    font-size: 0.9em;
     margin: auto;
     max-width: 1187px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top:15px;
+}
+
+@media screen and (max-width: 720px) {
+    #nav-links {
+        display: none;
+    }
+
+    #nav-links.current {
+        display: block;
+    }
+	
 }
