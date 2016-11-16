@@ -113,7 +113,43 @@ img.hero {
     padding-right: 15px;
     padding-top:15px;
 }
-/*Dog cards*/
+
+.gods {
+    width: 583px;
+}
+
+td {
+    display: inline;
+    padding: 3px;
+}
+
+/*#contentBox {
+    margin: 0px auto;
+    width:100%;
+    display: inline;
+}
+
+#column1 {
+    float:left;
+    margin:0;
+    width:33%;
+    display: inline;
+}
+
+#column2 {
+    float:left;
+    margin:0;
+    width:33%;
+    display: inline;
+}
+
+#column3 {
+    float:left;
+    margin:0;
+    width:33%;
+    display: inline;
+}*/
+/*Dog cards
 .dogs {
     z-index: 0;
 }
@@ -125,7 +161,7 @@ img.hero {
 
 h3 {
     position: absolute;
-    top: 531px;
+    top: 530px;
     left: 0;
     width: 100%;
 }
@@ -137,7 +173,7 @@ h3 span {
    background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.7);
    padding: 10px; 
-}
+}*/
 
 @media screen and (max-width: 720px) {
     #nav-links {
