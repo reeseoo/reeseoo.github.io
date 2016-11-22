@@ -78,15 +78,25 @@ img.hero {
     margin-top: 27px;
 }
 
+#nav-links a:hover{
+    background-color: #4e3829;
+    color: #ffffff;
+}
+
 #navs {
     text-decoration: none;
     padding: 10px 20px;
     font-size: 1.2em;
+    height: 100px;
     color: #4e3829;
 }
 
 #navs :hover{
     background-color: #4e3829;
+}
+
+#nav-list{
+    height: 100%;
 }
 
 #content {
