@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('.myButton').click(function() {
         if (clicked == true) {
             $('body').animate({left: "-25%"}, {duration: 1000}, queue = false);
-            $('ul').animate({left: "75%"}, 1000);
+            $('ul').animate({left: "72%"}, 1000);
             clicked = false;
         } else {
             $('body').animate({left: "0"}, {duration: 1000}, queue = false);

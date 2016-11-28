@@ -157,6 +157,25 @@ h3 span {
    padding: 10px; 
 }
 
+.social {
+    display: inline-block;
+    float: right;
+    max-width: 200px;
+}
+
+.social-icon-i {
+    height: 60px;
+    width: 60px;
+    float: right;
+    margin-left: 10px;
+}
+
+.social-icon-t {
+    height: 60px;
+    width: 60px;
+    float: right;
+}
+
 @media screen and (max-width: 720px) {
     #nav-links {
         display: none;
@@ -191,6 +210,72 @@ h3 span {
     }
     .myButton:active {
 	    position:relative;
-	    top:1px;
+	    top: 1px;
     }
+}
+
+@media screen and (max-width: 414px) {
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+    
+    #logo-name {
+            font-size: 20px;
+    }
+
+    .myButton {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+    #navbar {
+        height: 60px;
+    }
+
+    img.hero {
+        padding-top: 60px;
+    }
+
+    .default-paragraph {
+        font-size: 0.75em;
+    }
+
+    .footer {
+        height: 60px;
+    }
+
+    .footer-content {
+        font-size: 0.65em;
+    }
+
+    .social-icon-i {
+        height: 35px;
+        width: 35px;
+    }
+
+    .instagram {
+        height: 35px;
+        width: 35px;
+    }
+
+    .social-icon-t {
+        height: 35px;
+        width: 35px;
+    }
+
+    .twitter {
+        height: 35px;
+        width: 35px;
+    }
+
+    li {
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .gods {
+        width: 270px;
+    }
+
 }
