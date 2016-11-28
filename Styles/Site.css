@@ -75,14 +75,27 @@ img.hero {
 #nav-links {
     display: inline-block;
     float: right;
-    margin-top: 27px;
+}
+
+#nav-links a:hover{
+    background-color: #4e3829;
+    color: #ffffff;
 }
 
 #navs {
+    display: inline-block;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 23px 20px 24px 20px;
     font-size: 1.2em;
     color: #4e3829;
+}
+
+#navs :hover{
+    background-color: #4e3829;
+}
+
+#nav-list{
+    height: 100%;
 }
 
 #content {
