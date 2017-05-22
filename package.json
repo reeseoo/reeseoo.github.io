@@ -1,0 +1,23 @@
+{
+  "name": "rmorris",
+  "version": "1.0.0",
+  "description": "Portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reeseoo/reeseoo.github.io.git"
+  },
+  "author": "Reese Morris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reeseoo/reeseoo.github.io/issues"
+  },
+  "homepage": "https://github.com/reeseoo/reeseoo.github.io#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  }
+}
