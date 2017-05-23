@@ -15,7 +15,7 @@ class AwesomeComponent extends React.Component {
 
   render() {
     return (
-      <div>
+      <div style={{ width: "200px", top: "0", display: 'inline-block' }}>
         Likes : <span>{this.state.likesCount}</span>
         <div><button onClick={this.onLike}>Like Me</button></div>
       </div>

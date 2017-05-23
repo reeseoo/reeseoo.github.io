@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+
 class SidebarComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -7,7 +9,7 @@ class SidebarComponent extends React.Component {
     }
 
     render() {
-        return <div> SIDEBAR </div>;
+        return <div style={{ display: 'inline-block', float: 'left', height: '100%', width:'350px', margin: 'auto', backgroundColor:'black' }}> SIDEBAR </div>;
     }
 }
 
