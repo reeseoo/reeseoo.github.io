@@ -1,5 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react'
 import {render} from 'react-dom';
-var routes = require('./routes');
+import { BrowserRouter, Route } from 'react-router-dom'
+import SidebarComponent from './sidebarcomponent.jsx';
+import AppComponent from './appcomponent.jsx';
+//var routes = require('./routes');
 
-render(routes, document.getElementById('app'));
+render(    <BrowserRouter>
+            <Route path='/' component={SidebarComponent}>
+                <Route path='/home' component={AppComponent} />
+            </Route>
+    </BrowserRouter>, document.getElementById('app'));
