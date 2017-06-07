@@ -13,7 +13,7 @@ import AppComponent from './appcomponent.jsx';
 );*/
 
 
-const routes = () => (
+/*const routes = () => (
     <BrowserRouter>
         <Switch>
             <Route path='/' component={SidebarComponent}>
@@ -21,4 +21,4 @@ const routes = () => (
             </Route>
         </Switch>
     </BrowserRouter>
-);
+);*/
