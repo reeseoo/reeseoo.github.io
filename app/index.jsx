@@ -1,12 +1,5 @@
 import React from 'react';
 import {render} from 'react-dom';
-import AwesomeComponent from './defaultcomponent.jsx';
-import SidebarComponent from './sidebarcomponent.jsx';
+var routes = require('./routes');
 
-class App extends React.Component {
-  render () {
-    return <div> <SidebarComponent /> <p> Hello React!</p> <AwesomeComponent /></div>;
-  }
-}
-
-render(<App/>, document.getElementById('app'));
+render(routes, document.getElementById('app'));
